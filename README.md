@@ -6,11 +6,12 @@ Once you finish your sample and it gets merged, you can open a PR in the Daytona
 
 # Sample <Python/FastAPI>
 
-A sample of a FastAPI application using PDM and Daytona
+- A sample of a FastAPI application using PDM and Daytona
 
-Generate from [copier-pdm](https://github.com/pawamoy/copier-pdm)
+- Generated from [copier-pdm](https://github.com/pawamoy/copier-pdm)
 
-Check out [Copier PDM Documentation](https://pawamoy.github.io/copier-pdm/) for more usage details
+- Check out [Copier PDM Documentation](https://pawamoy.github.io/copier-pdm/) for more usage details
+
 ---
 
 ## 🚀 Getting Started  
@@ -24,13 +25,17 @@ Check out [Copier PDM Documentation](https://pawamoy.github.io/copier-pdm/) for 
    daytona create https://github.com/JackTheMico/copier-pdm-fastapi 
    ```  
 
-3. **Open the Workspace**:
+3. **Open the IDE**:
+
+   This is optional, the create command will automatically open the VSCode IDE.
 
    ```bash
    daytona code copier-pdm-fastapi
    ```
 
 4. **Start the FastAPI with reload enabled**:  
+
+   You might need to run `make setup` manually first
 
    ```bash  
    pdm run make devstart
@@ -41,6 +46,7 @@ Check out [Copier PDM Documentation](https://pawamoy.github.io/copier-pdm/) for 
 ## ✨ Features  
 
 - Fast build your FastAPI application using PDM and Daytona
+- Pre-configured VSCode IDE and extensions.
 - Support for Insiders versions of projects (e.g. see [@pawamoy's insiders](https://pawamoy.github.io/insiders/))
 - [PDM]() setup, with pre-defined pyproject.toml
 - Documentation built with MkDocs (Material theme and "autodoc" mkdocstrings plugin)
@@ -57,4 +63,3 @@ Check out [Copier PDM Documentation](https://pawamoy.github.io/copier-pdm/) for 
 - Auto-generated CHANGELOG.md from git commits (using Angular message style)
 - All licenses from choosealicense.com
 - Makefile for convenience
-
