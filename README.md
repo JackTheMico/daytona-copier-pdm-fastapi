@@ -35,12 +35,11 @@ Once you finish your sample and it gets merged, you can open a PR in the Daytona
 
 4. **Start the FastAPI with reload enabled**:  
 
-   You will need to wait the pyenv and pdm finish installing before the below command.
+   You will need to wait for pyenv and pdm finish installing before running the below command.
    ![image](https://github.com/user-attachments/assets/503bcf3b-1cf8-4b1b-ac60-3610d3d5f29f)
 
-
    ```bash  
-   pdm run make devstart
+   make devstart
    ```  
 
 ---
